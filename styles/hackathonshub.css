@@ -125,3 +125,145 @@
   border-radius: 5px;
   transform: scale(1);
 }
+
+/* Tablet size */
+@media screen and (max-width: 750px) {
+  .hackathon-container {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+  }
+
+  .hack-grid1 {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .hack-details {
+    gap: 30px;
+    margin-left: 0;
+  }
+
+  .btn__mode {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .day-left__btn button {
+    font-size: medium;
+    padding: 8px 20px;
+  }
+
+  .mode-of-hackathon {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .winner-prize {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hack-grid2 {
+    flex-direction: column;
+  }
+
+  .description {
+    margin: 0 10px;
+  }
+
+  .flag-company {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flag-company button {
+    padding: 6px 12px;
+  }
+
+  .hackathon-date {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-glimpses {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-for span {
+    padding: 2px 5px;
+  }
+}
+
+/* Mobile size */
+@media screen and (max-width: 600px) {
+  .hackathon-container {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+  }
+
+  .hack-grid1 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .hack-details {
+    gap: 20px;
+    margin-left: 0;
+  }
+
+  .btn__mode {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .day-left__btn button {
+    font-size: small;
+    padding: 6px 15px;
+  }
+
+  .mode-of-hackathon {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .winner-prize {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hack-grid2 {
+    flex-direction: column;
+  }
+
+  .description {
+    margin: 0 5px;
+  }
+
+  .flag-company {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flag-company button {
+    padding: 5px 10px;
+  }
+
+  .hackathon-date {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-glimpses {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hackathon-for {
+    gap: 5px;
+  }
+
+  .hackathon-for span {
+    padding: 2px 5px;
+  }
+}

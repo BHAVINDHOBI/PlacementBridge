@@ -733,3 +733,335 @@ textarea.form-control {
     height: 50px;
   }
 }
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  /* Tablet Landscape */
+  .top-bar__content {
+    padding: 0 20px;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .bottom-bar__content {
+    padding: 0 50px;
+  }
+
+  .logo__img {
+    height: 100px;
+  }
+
+  .logo__text {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+
+  .welcome-text {
+    font-size: 40px;
+  }
+
+  .info-text__img {
+    column-gap: 50px;
+  }
+
+  .info-text p {
+    font-size: 18px;
+  }
+
+  .learn-more-btn {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+
+  .features-container {
+    gap: 100px;
+  }
+
+  .feature {
+    width: 400px;
+    height: 200px;
+  }
+
+  .feature p {
+    font-size: 20px;
+  }
+
+  .about-main {
+    gap: 30px;
+  }
+
+  .about-grid1 h1 {
+    font-size: 40px;
+  }
+
+  .about-grid1 p {
+    font-size: 18px;
+  }
+
+  .trans-bar {
+    height: 400px;
+  }
+
+  .trans-bar .bar-header {
+    font-size: 30px;
+  }
+
+  .trans-bar span {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Tablet Portrait */
+  .nav {
+    top: 70px;
+  }
+
+  .logo__img {
+    height: 80px;
+  }
+
+  .logo__text {
+    font-size: 18px;
+    margin-left: 8px;
+  }
+
+  .bottom-bar__content {
+    padding: 0 30px;
+  }
+
+  .top-bar__content {
+    padding: 0 20px;
+    font-size: 10px;
+  }
+
+  .btn {
+    padding: 6px 15px;
+    font-size: 10px;
+  }
+
+  .welcome-text {
+    font-size: 35px;
+  }
+
+  .info-text__img {
+    column-gap: 20px;
+  }
+
+  .info-text p {
+    font-size: 16px;
+  }
+
+  .learn-more-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .features-container {
+    gap: 60px;
+  }
+
+  .feature {
+    width: 300px;
+    height: 180px;
+  }
+
+  .feature p {
+    font-size: 18px;
+  }
+
+  .about-main {
+    gap: 20px;
+  }
+
+  .about-grid1 h1 {
+    font-size: 35px;
+  }
+
+  .about-grid1 p {
+    font-size: 16px;
+  }
+
+  .trans-bar {
+    height: 350px;
+  }
+
+  .trans-bar .bar-header {
+    font-size: 28px;
+  }
+
+  .trans-bar span {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile Landscape */
+  .nav {
+    top: 60px;
+  }
+
+  .logo__img {
+    height: 60px;
+  }
+
+  .logo__text {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+
+  .bottom-bar__content {
+    padding: 0 20px;
+  }
+
+  .top-bar__content {
+    padding: 0 15px;
+    font-size: 8px;
+  }
+
+  .btn {
+    padding: 4px 10px;
+    font-size: 8px;
+  }
+
+  .welcome-text {
+    font-size: 28px;
+  }
+
+  .info-text__img {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .info-text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .learn-more-btn {
+    padding: 4px 10px;
+    font-size: 10px;
+  }
+
+  .features-container {
+    gap: 40px;
+  }
+
+  .feature {
+    width: 250px;
+    height: 150px;
+  }
+
+  .feature p {
+    font-size: 16px;
+  }
+
+  .about-main {
+    gap: 15px;
+  }
+
+  .about-grid1 h1 {
+    font-size: 30px;
+  }
+
+  .about-grid1 p {
+    font-size: 14px;
+  }
+
+  .trans-bar {
+    height: 300px;
+  }
+
+  .trans-bar .bar-header {
+    font-size: 25px;
+  }
+
+  .trans-bar span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  /* Mobile Portrait */
+  .top-bar__content {
+    padding: 0 10px;
+    font-size: 6px;
+  }
+
+  .logo__img {
+    height: 50px;
+  }
+
+  .logo__text {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .bottom-bar__content {
+    padding: 0 10px;
+  }
+
+  .btn {
+    padding: 3px 8px;
+    font-size: 7px;
+  }
+
+  .welcome-text {
+    font-size: 24px;
+  }
+
+  .info-text__img {
+    row-gap: 15px;
+  }
+
+  .info-text p {
+    font-size: 12px;
+  }
+
+  .learn-more-btn {
+    padding: 3px 8px;
+    font-size: 9px;
+  }
+
+  .features-container {
+    gap: 30px;
+  }
+
+  .feature {
+    width: 200px;
+    height: 130px;
+  }
+
+  .feature p {
+    font-size: 14px;
+  }
+
+  .about-main {
+    gap: 10px;
+  }
+
+  .about-grid1 h1 {
+    font-size: 25px;
+  }
+
+  .about-grid1 p {
+    font-size: 12px;
+  }
+
+  .trans-bar {
+    height: 250px;
+  }
+
+  .trans-bar .bar-header {
+    font-size: 22px;
+  }
+
+  .trans-bar span {
+    font-size: 18px;
+  }
+}

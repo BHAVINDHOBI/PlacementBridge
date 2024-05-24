@@ -284,3 +284,109 @@ header {
     font-size: 19px;
   }
 }
+
+.login-box,
+.signup-box {
+  height: 100%;
+  width: 300px;
+}
+
+.separator-text {
+  top: -9px;
+  left: 100px;
+}
+
+.ele {
+  height: 50px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.clkbtn {
+  height: 50px;
+  width: 130px;
+  font-size: 19px;
+}
+
+/* Mobile size */
+@media screen and (max-width: 600px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .title {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .btn {
+    height: 45px;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .login,
+  .signup {
+    font-size: 16px;
+  }
+
+  .slider {
+    height: 45px;
+    width: 50%;
+    left: 0;
+  }
+
+  .moveslider {
+    left: 50%;
+  }
+
+  .form-section {
+    height: auto;
+    width: 100%;
+  }
+
+  .form-section-move {
+    left: -100%;
+  }
+
+  .login-box,
+  .signup-box {
+    height: auto;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .separator-text {
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ele {
+    height: 45px;
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .clkbtn {
+    height: 45px;
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .social-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .google-btn,
+  .github-btn {
+    height: 45px;
+    width: 80%;
+    font-size: 16px;
+  }
+}
